@@ -19,10 +19,6 @@ long backcolor = 67108864
 string icon = "AppIcon!"
 boolean center = true
 cb_1 cb_1
-string themestylename = "Do Not Use Themes"
-long richtextedittype = 2
-long richtexteditversion = 1
-string richtexteditkey = ""
 end type
 global w_001 w_001
 
@@ -36,8 +32,8 @@ destroy(this.cb_1)
 end on
 
 type cb_1 from commandbutton within w_001
-integer x = 375
-integer y = 308
+integer x = 654
+integer y = 112
 integer width = 457
 integer height = 132
 integer taborder = 10
